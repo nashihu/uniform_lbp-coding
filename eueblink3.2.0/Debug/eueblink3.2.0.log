@@ -1,0 +1,25 @@
+﻿Build started 2019/7/4 20:45:14.
+     1>Project "E:\code\mytoolbox\VS\多文件图片读取与lbp特征提取\eueblink3.2.0\eueblink3.2.0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt svmtr.cpp
+         svmtr.cpp
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\include\opencv2\core\mat.hpp(1925): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\include\opencv2\core\persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\include\opencv2\core\utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\include\opencv2\imgproc.hpp(620): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\svmtr.cpp(189): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\svmtr.cpp(193): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\svmtr.cpp(141): warning C4101: 'clockBegin' : unreferenced local variable
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\svmtr.cpp(141): warning C4101: 'clockEnd' : unreferenced local variable
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\svmtr.cpp(250): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\code\mytoolbox\vs\多文件图片读取与lbp特征提取\eueblink3.2.0\svmtr.cpp(254): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\mytoolbox\VS\多文件图片读取与lbp特征提取\Debug\eueblink3.2.0.exe" /INCREMENTAL /NOLOGO opencv_core320.lib opencv_highgui320.lib opencv_imgproc320.lib opencv_imgcodecs320.lib opencv_ml320.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\code\mytoolbox\VS\多文件图片读取与lbp特征提取\Debug\eueblink3.2.0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\mytoolbox\VS\多文件图片读取与lbp特征提取\Debug\eueblink3.2.0.lib" /MACHINE:X86 Debug\svmtr.obj
+         eueblink3.2.0.vcxproj -> E:\code\mytoolbox\VS\多文件图片读取与lbp特征提取\Debug\eueblink3.2.0.exe
+     1>Done Building Project "E:\code\mytoolbox\VS\多文件图片读取与lbp特征提取\eueblink3.2.0\eueblink3.2.0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.97
